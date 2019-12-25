@@ -1,0 +1,80 @@
+body{
+  color: #323232;
+  background: #F2F2F2;
+  line-height:1.5;
+}
+.icon{
+  display:inline-block;
+  font-size: inherit;
+  height:1em;
+  overflow:visible;
+}
+
+a{
+  color:#323232;
+  text-decoration: none;
+  padding-left: 5px;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.container{
+  max-width: 960px;
+  margin:40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+section{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap:20px;
+  padding:24px 0;
+  broder-bottom:1px solid lightgrey;
+}
+.bottom{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+  padding:24px 0;
+  broder-bottom:1px solid lightgrey;
+}
+.section-title{
+  font-weight: bold;
+  font-size:18px;
+}
+
+
+/**************************************************/
+
+.my-name{
+  font-size: 48px;
+  line-height: 1;
+}
+
+.my-title{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/**************************************************/
+
+.contact{
+  padding-top: 10px;
+}
+
+
+.link-item{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+/**************************************************/
+.skill-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:10px;
+  margin-bottom:24px;
+}
