@@ -44,7 +44,14 @@ section{
   font-weight: bold;
   font-size:18px;
 }
+.project-name{
+  font-style: italic;
+  font-size:18px;
+}
 
+.project{
+  margin-top: 25px;
+}
 
 /**************************************************/
 
